@@ -47,18 +47,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btn_Exit = new System.Windows.Forms.Button();
-            this.lb_Blue = new System.Windows.Forms.Label();
-            this.lb_White = new System.Windows.Forms.Label();
-            this.lb_Red = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lb_Black = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lb_Grean = new System.Windows.Forms.Label();
             this.rB_1Pic = new System.Windows.Forms.RadioButton();
             this.rB_3Pic = new System.Windows.Forms.RadioButton();
             this.rB_5Pic = new System.Windows.Forms.RadioButton();
@@ -67,14 +56,25 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.lb_Width = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lb_Blue = new System.Windows.Forms.Label();
+            this.lb_White = new System.Windows.Forms.Label();
+            this.lb_Red = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lb_Black = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lb_Grean = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_Mul
@@ -246,38 +246,6 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "label1";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(231, 375);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 83);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(231, 265);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 83);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(231, 154);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 83);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(231, 48);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 83);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
             // btn_Exit
             // 
             this.btn_Exit.Location = new System.Drawing.Point(348, 462);
@@ -287,91 +255,6 @@
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = true;
             this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
-            // 
-            // lb_Blue
-            // 
-            this.lb_Blue.AutoEllipsis = true;
-            this.lb_Blue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_Blue.Image = global::CatchMindClient.Properties.Resources.파란색;
-            this.lb_Blue.Location = new System.Drawing.Point(346, 489);
-            this.lb_Blue.Name = "lb_Blue";
-            this.lb_Blue.Size = new System.Drawing.Size(100, 100);
-            this.lb_Blue.TabIndex = 4;
-            this.lb_Blue.Text = "BLUE";
-            this.lb_Blue.Click += new System.EventHandler(this.lb_Blue_Click);
-            // 
-            // lb_White
-            // 
-            this.lb_White.AutoEllipsis = true;
-            this.lb_White.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_White.Image = global::CatchMindClient.Properties.Resources.지우개;
-            this.lb_White.Location = new System.Drawing.Point(136, 490);
-            this.lb_White.Name = "lb_White";
-            this.lb_White.Size = new System.Drawing.Size(100, 100);
-            this.lb_White.TabIndex = 14;
-            this.lb_White.Text = "지우개";
-            this.lb_White.Click += new System.EventHandler(this.lb_White_Click);
-            // 
-            // lb_Red
-            // 
-            this.lb_Red.AutoEllipsis = true;
-            this.lb_Red.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_Red.Image = global::CatchMindClient.Properties.Resources.빨간색;
-            this.lb_Red.Location = new System.Drawing.Point(242, 489);
-            this.lb_Red.Name = "lb_Red";
-            this.lb_Red.Size = new System.Drawing.Size(100, 100);
-            this.lb_Red.TabIndex = 3;
-            this.lb_Red.Text = "RED";
-            this.lb_Red.Click += new System.EventHandler(this.lb_Red_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoEllipsis = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Image = global::CatchMindClient.Properties.Resources.화이트;
-            this.label6.Location = new System.Drawing.Point(3, 490);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(100, 100);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "전체 지우개";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // lb_Black
-            // 
-            this.lb_Black.AutoEllipsis = true;
-            this.lb_Black.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_Black.Image = global::CatchMindClient.Properties.Resources.검은색;
-            this.lb_Black.Location = new System.Drawing.Point(558, 488);
-            this.lb_Black.Name = "lb_Black";
-            this.lb_Black.Size = new System.Drawing.Size(100, 100);
-            this.lb_Black.TabIndex = 6;
-            this.lb_Black.Text = "BLACK";
-            this.lb_Black.Click += new System.EventHandler(this.lb_Black_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(171, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(487, 476);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
-            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
-            // 
-            // lb_Grean
-            // 
-            this.lb_Grean.AutoEllipsis = true;
-            this.lb_Grean.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lb_Grean.Image = global::CatchMindClient.Properties.Resources.녹색;
-            this.lb_Grean.Location = new System.Drawing.Point(452, 488);
-            this.lb_Grean.Name = "lb_Grean";
-            this.lb_Grean.Size = new System.Drawing.Size(100, 100);
-            this.lb_Grean.TabIndex = 5;
-            this.lb_Grean.Text = "GREAN";
-            this.lb_Grean.Click += new System.EventHandler(this.lb_Grean_Click);
             // 
             // rB_1Pic
             // 
@@ -467,6 +350,127 @@
             this.lb_Width.Size = new System.Drawing.Size(162, 23);
             this.lb_Width.TabIndex = 25;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::CatchMindClient.Properties.Resources.four;
+            this.pictureBox5.Location = new System.Drawing.Point(231, 375);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 83);
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::CatchMindClient.Properties.Resources.three;
+            this.pictureBox4.Location = new System.Drawing.Point(231, 265);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 83);
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::CatchMindClient.Properties.Resources.two;
+            this.pictureBox3.Location = new System.Drawing.Point(231, 154);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 83);
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::CatchMindClient.Properties.Resources.one;
+            this.pictureBox2.Location = new System.Drawing.Point(231, 48);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 83);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // lb_Blue
+            // 
+            this.lb_Blue.AutoEllipsis = true;
+            this.lb_Blue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lb_Blue.Image = global::CatchMindClient.Properties.Resources.파란색;
+            this.lb_Blue.Location = new System.Drawing.Point(346, 489);
+            this.lb_Blue.Name = "lb_Blue";
+            this.lb_Blue.Size = new System.Drawing.Size(100, 100);
+            this.lb_Blue.TabIndex = 4;
+            this.lb_Blue.Text = "BLUE";
+            this.lb_Blue.Click += new System.EventHandler(this.lb_Blue_Click);
+            // 
+            // lb_White
+            // 
+            this.lb_White.AutoEllipsis = true;
+            this.lb_White.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lb_White.Image = global::CatchMindClient.Properties.Resources.지우개;
+            this.lb_White.Location = new System.Drawing.Point(136, 490);
+            this.lb_White.Name = "lb_White";
+            this.lb_White.Size = new System.Drawing.Size(100, 100);
+            this.lb_White.TabIndex = 14;
+            this.lb_White.Text = "지우개";
+            this.lb_White.Click += new System.EventHandler(this.lb_White_Click);
+            // 
+            // lb_Red
+            // 
+            this.lb_Red.AutoEllipsis = true;
+            this.lb_Red.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lb_Red.Image = global::CatchMindClient.Properties.Resources.빨간색;
+            this.lb_Red.Location = new System.Drawing.Point(242, 489);
+            this.lb_Red.Name = "lb_Red";
+            this.lb_Red.Size = new System.Drawing.Size(100, 100);
+            this.lb_Red.TabIndex = 3;
+            this.lb_Red.Text = "RED";
+            this.lb_Red.Click += new System.EventHandler(this.lb_Red_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoEllipsis = true;
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Image = global::CatchMindClient.Properties.Resources.화이트;
+            this.label6.Location = new System.Drawing.Point(3, 490);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 100);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "전체 지우개";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // lb_Black
+            // 
+            this.lb_Black.AutoEllipsis = true;
+            this.lb_Black.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lb_Black.Image = global::CatchMindClient.Properties.Resources.검은색;
+            this.lb_Black.Location = new System.Drawing.Point(558, 488);
+            this.lb_Black.Name = "lb_Black";
+            this.lb_Black.Size = new System.Drawing.Size(100, 100);
+            this.lb_Black.TabIndex = 6;
+            this.lb_Black.Text = "BLACK";
+            this.lb_Black.Click += new System.EventHandler(this.lb_Black_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Location = new System.Drawing.Point(171, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(487, 476);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
+            // 
+            // lb_Grean
+            // 
+            this.lb_Grean.AutoEllipsis = true;
+            this.lb_Grean.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lb_Grean.Image = global::CatchMindClient.Properties.Resources.녹색;
+            this.lb_Grean.Location = new System.Drawing.Point(452, 488);
+            this.lb_Grean.Name = "lb_Grean";
+            this.lb_Grean.Size = new System.Drawing.Size(100, 100);
+            this.lb_Grean.TabIndex = 5;
+            this.lb_Grean.Text = "GREAN";
+            this.lb_Grean.Click += new System.EventHandler(this.lb_Grean_Click);
+            // 
             // CM_Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -500,14 +504,14 @@
             this.Text = "CM_Game";
             this.Load += new System.EventHandler(this.CM_Game_Load);
             this.panel1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -109,6 +109,15 @@
     <Content Include="bin\Debug\one.png" />
     <Content Include="bin\Debug\three.png" />
     <Content Include="bin\Debug\two.png" />
+    <Content Include="my_pic\cm_title.png" />
+    <Content Include="my_pic\ffd709c65b4740f76e5b7eab5d5f01e2.png" />
+    <Content Include="my_pic\four.png" />
+    <Content Include="my_pic\number-1.png" />
+    <Content Include="my_pic\number-2.png" />
+    <Content Include="my_pic\numbre-3.png" />
+    <Content Include="my_pic\one.png" />
+    <Content Include="my_pic\three.png" />
+    <Content Include="my_pic\two.png" />
     <None Include="Resources\화이트.jpg" />
     <None Include="bin\Debug\지우개.png" />
     <None Include="bin\Debug\빨간색.png" />
