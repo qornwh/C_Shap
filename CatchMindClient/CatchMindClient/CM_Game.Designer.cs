@@ -473,8 +473,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1088, 598);
-            this.Controls.Add(this.lb_Width);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lb_Blue);
             this.Controls.Add(this.btn_Final);
@@ -495,6 +493,8 @@
             this.Controls.Add(this.txt_Mul);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lb_Grean);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.lb_Width);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "CM_Game";
             this.Text = "CM_Game";
