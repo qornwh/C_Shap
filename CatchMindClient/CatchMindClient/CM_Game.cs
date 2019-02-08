@@ -61,9 +61,6 @@ namespace CatchMindClient
                 Stream stream = new NetworkStream(client.Client);
                 int len = stream.Read(bytes, 0, bytes.Length);
                 CM_Library Two = (CM_Library)CM_Library.Deserialize(bytes);
-                this.txt_Mul.Invoke(new MethodInvoker(delegate () {
-                    txt_Mul.Text += Two.type.ToString() + "\r\n";
-                }));
                 stream.Flush();
                 switch (Two.type)
                 {

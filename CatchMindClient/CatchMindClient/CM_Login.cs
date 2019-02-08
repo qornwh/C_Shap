@@ -37,7 +37,7 @@ namespace CatchMindClient
                 SqlConnection conn = new SqlConnection();
                 SqlCommand sqlComm = new SqlCommand();
                 string connectingsql =
-                    "Server = 172.30.1.60,1433; database = CM_data ; uid = qornwh ; pwd = qweasd12";
+                    "Server = 127.0.0.1,1433; database = CM_data ; uid = qornwh ; pwd = qweasd12";
                 conn.ConnectionString = connectingsql;
                 conn.Open();
 
@@ -60,7 +60,7 @@ namespace CatchMindClient
             {
                 if (Success == true)
                 {
-                    string ip = "172.30.1.60";
+                    string ip = "127.0.0.1";
                     client = new TcpClient();
                     client.Connect(ip, 9876);
                     Stream stream = new NetworkStream(client.Client);

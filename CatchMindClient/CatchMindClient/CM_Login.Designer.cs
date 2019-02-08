@@ -34,7 +34,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Log = new System.Windows.Forms.Button();
-            this.btn_member = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,18 +49,18 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(96, 273);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 15);
+            this.label1.Size = new System.Drawing.Size(20, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.label1.Text = "ID";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(96, 374);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 15);
+            this.label2.Size = new System.Drawing.Size(31, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.label2.Text = "PW";
             // 
             // textBox2
             // 
@@ -84,28 +83,17 @@
             // 
             this.btn_Log.Location = new System.Drawing.Point(519, 270);
             this.btn_Log.Name = "btn_Log";
-            this.btn_Log.Size = new System.Drawing.Size(204, 68);
+            this.btn_Log.Size = new System.Drawing.Size(204, 126);
             this.btn_Log.TabIndex = 5;
             this.btn_Log.Text = "Login";
             this.btn_Log.UseVisualStyleBackColor = true;
             this.btn_Log.Click += new System.EventHandler(this.btn_Log_Click);
-            // 
-            // btn_member
-            // 
-            this.btn_member.Location = new System.Drawing.Point(519, 344);
-            this.btn_member.Name = "btn_member";
-            this.btn_member.Size = new System.Drawing.Size(204, 69);
-            this.btn_member.TabIndex = 6;
-            this.btn_member.Text = "회원가입";
-            this.btn_member.UseVisualStyleBackColor = true;
-            this.btn_member.Click += new System.EventHandler(this.btn_member_Click);
             // 
             // CM_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_member);
             this.Controls.Add(this.btn_Log);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox2);
@@ -128,7 +116,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_Log;
-        private System.Windows.Forms.Button btn_member;
     }
 }
 
