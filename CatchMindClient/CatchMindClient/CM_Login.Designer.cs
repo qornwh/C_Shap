@@ -39,7 +39,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(192, 312);
+            this.textBox1.Location = new System.Drawing.Point(192, 334);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(277, 25);
             this.textBox1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(97, 315);
+            this.label1.Location = new System.Drawing.Point(97, 337);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 15);
             this.label1.TabIndex = 1;
@@ -56,7 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(97, 416);
+            this.label2.Location = new System.Drawing.Point(97, 389);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 15);
             this.label2.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(192, 413);
+            this.textBox2.Location = new System.Drawing.Point(192, 386);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '●';
             this.textBox2.Size = new System.Drawing.Size(277, 25);
@@ -72,9 +72,9 @@
             // 
             // btn_Log
             // 
-            this.btn_Log.Location = new System.Drawing.Point(520, 312);
+            this.btn_Log.Location = new System.Drawing.Point(520, 327);
             this.btn_Log.Name = "btn_Log";
-            this.btn_Log.Size = new System.Drawing.Size(204, 126);
+            this.btn_Log.Size = new System.Drawing.Size(204, 93);
             this.btn_Log.TabIndex = 5;
             this.btn_Log.Text = "Login";
             this.btn_Log.UseVisualStyleBackColor = true;
